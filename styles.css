@@ -2,15 +2,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h1 {
+    margin: 0;
 }
 
 .notepad {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    width: 80%;
-    margin: 20px auto;
+    padding: 20px;
+    
 }
 
 textarea {
@@ -19,6 +38,13 @@ textarea {
     border: none;
     resize: none;
     outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.buttons {
+    padding: 10px;
+    text-align: center;
 }
 
 button{
@@ -26,9 +52,10 @@ button{
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
